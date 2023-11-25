@@ -1,8 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
+//board의 상태를 정하기: ok or not ok
 #define BOARDSTATUS_OK		1
 #define BOARDSTATUS_NOTOK	0
-//board의 상태를 정하기: ok or not ok
+#define N_BOARD				15
+//board 크기를 정하기: 15칸
+
+
 int board_initBoard(void);
 
 int board_printBoardStatus(void);
@@ -15,7 +19,7 @@ int board_getBoardStatus(int pos);
  
  
  
-int board_getSharkPosition(void);
+
 
 int board_stepShark(void);
 
